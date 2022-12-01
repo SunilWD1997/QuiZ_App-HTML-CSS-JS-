@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuiZApp</title>
+
+<!-- fav_icon links starts here--------------- -->
+<link rel="apple-touch-icon" sizes="180x180" href="fav_icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav_icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav_icon/favicon-16x16.png">
+<link rel="manifest" href="fav_icon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- CSS style sheet link -->
+    <link rel="stylesheet" href="/SCSS/style.css">
+</head>
+
+<body>
+    <!-- main content starts here---------------->
+
+    <div class="container">
+
+
+        <!-- Question line of quiz is here-------------- -->
+        <h3 id="question">Q4: Question is loading...</h3>
+
+        <div class="aii_options">
+            <div class="field">
+                <input type="radio" id="a" name="option" class="option">
+                <label for="a" id="opt_1">Option_1</label>
+            </div>
+            <div class="field">
+                <input type="radio" id="b" name="option" class="option">
+                <label for="b" id="opt_2">Option_2</label>
+            </div>
+            <div class="field">
+                <input type="radio" id="c" name="option" class="option">
+                <label for="c" id="opt_3">Option_3</label>
+            </div>
+            <div class="field">
+                <input type="radio" id="d" name="option" class="option">
+                <label for="d" id="opt_4">Option_4</label>
+            </div>
+
+        </div>
+
+        <!-- submit button starts here---------------- -->
+        <button class="submit_button" id="submit">SUBMIT</button>
+
+
+        <!-- results and play_again starts here------------ -->
+        <div class="results show_item" id="show_area">
+            <p id="score">You have scored 3/4</p>
+            <button class="play_again" id="play_more">PLAY AGAIN</button>
+
+        </div>
+    </div>
+
+    <!-- JavaScript link -->
+    <script src="/JS/index.js"></script>
+</body>
+
+</html>

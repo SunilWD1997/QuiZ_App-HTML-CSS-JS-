@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #80a8b7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 27rem;
+  padding: .5rem 1.7rem;
+  background-color: white;
+  border-radius: .3rem;
+  -webkit-box-shadow: .2rem .2rem 1rem grey;
+          box-shadow: .2rem .2rem 1rem grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container #question {
+  margin: .8rem 0 .6rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.field {
+  margin: .7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.field label {
+  margin-left: .3rem;
+  font-size: .8rem;
+}
+
+.submit_button {
+  padding: .15rem .9rem;
+  border: none;
+  margin: .8rem 0;
+  background-color: #0556a1;
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-shadow: .2rem .2rem .2rem grey;
+          box-shadow: .2rem .2rem .2rem grey;
+}
+
+.submit_button:hover {
+  background-color: #0c62b3;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.submit_button:active {
+  -webkit-transform: translate(0.2rem, 0.2rem);
+          transform: translate(0.2rem, 0.2rem);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.results {
+  background-color: #80a8b7;
+  width: 100%;
+  padding: .7rem 0;
+  -webkit-box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.show_item {
+  display: none;
+}
+
+.results #score {
+  margin-bottom: .5rem;
+}
+
+.play_again {
+  background-color: #066b52;
+  border: none;
+  padding: .2rem .8rem;
+  color: white;
+  -webkit-box-shadow: .2rem .2rem .2rem grey;
+          box-shadow: .2rem .2rem .2rem grey;
+}
+
+.play_again:hover {
+  background-color: #074939;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.play_again:active {
+  -webkit-transform: translate(0.2rem, 0.2rem);
+          transform: translate(0.2rem, 0.2rem);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media screen and (max-width: 440px) {
+  .container {
+    width: 95%;
+    padding: 0.2rem 0.75rem;
+  }
+  .container #question {
+    margin: .4rem 0 .3rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .field {
+    margin: .5rem 0;
+  }
+  .field label {
+    margin-left: .3rem;
+    font-size: .7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
